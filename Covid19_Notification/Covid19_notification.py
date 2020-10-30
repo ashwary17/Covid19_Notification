@@ -3,7 +3,7 @@ from plyer import notification
 import requests
 from bs4 import BeautifulSoup
 ## Test
-#Changes to 
+#Changes to git
 
 
 def notifyMy(title, message):
