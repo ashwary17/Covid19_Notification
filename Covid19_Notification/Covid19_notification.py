@@ -3,7 +3,7 @@ from plyer import notification
 import requests
 from bs4 import BeautifulSoup
 ## Test
-#Changes to git...
+#Changes to git..
 
 
 def notifyMy(title, message):
@@ -27,7 +27,7 @@ if __name__ == "__main__":
        #print(soup.prettify())
 
         myDataStr = ""
-        for tr in soup.find_all('tbody')[0].find_all('tr'):
+        for tr in soup.find_all('tbody')[2].find_all('tr'):
           myDataStr += tr.get_text()
         myDataStr = myDataStr[1:]    
         itemList = myDataStr.split("\n\n")
